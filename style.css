@@ -3190,3 +3190,49 @@ span.email-notes{color: #42414f;
         width: auto
     }
 }
+
+@media only screen and (max-width:992px) {
+    p#service01 {
+        padding-bottom: 5px
+    }
+    p#service02 {
+        
+    }
+    p#service03 {
+
+    }
+    p#service04 {
+
+    }
+    p#service05 {
+        padding-bottom: 7px
+    }
+    p#service06 {
+
+    }
+}
+@media only screen and (min-width:992px) {
+    p#service01 {
+        padding-bottom: 25px
+    }
+    p#service02 {
+
+    }
+    p#service03 {
+
+    }
+    p#service04 {
+
+    }
+    p#service05 {
+        padding-bottom: 52px
+    }
+    p#service06 {
+        padding-bottom: 26px
+    }
+}
+@media only screen and (min-width:1200px) {
+    p#service04 {
+        padding-bottom: 26px
+    }
+}
