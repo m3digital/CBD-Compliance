@@ -57,18 +57,18 @@
 
 
     <!-- Snipcart -->
-    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.4/default/snipcart.css" />
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.4/default/snipcart.css" media="print" onload="this.media='all'"> />
     <!-- bootstrap v3.3.6 css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="css/owl.carousel.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/owl.transitions.css" media="print" onload="this.media='all'">
     <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css" media="print" onload="this.media='all'">
     <!-- font-Icon css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/icon.css">
-    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" media="print" onload="this.media='all'"> 
+    <link rel="stylesheet" href="css/icon.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="css/flaticon.css" media="print" onload="this.media='all'">
     <!-- magnific css -->
     <link rel="stylesheet" href="css/magnific.min.css">
     <!-- venobox css -->
@@ -324,7 +324,11 @@
         <div class="intro-carousel">
             <div class="intro-content">
                 <div class="slider-images">
-                    <img src="img/slider/background1.jpg"  alt="weed-slider">
+                    <picture>
+                        <source srcset="img/slider/background1.webp" type="image/webp">
+                        <source srcset="img/slider/background1.jpg" type="image/jpeg"> 
+                        <img src="img/slider/background1.jpg"  alt="weed-slider">
+                      </picture>
                 </div>
                 <div class="slider-content">
                     <div class="display-table">
@@ -350,7 +354,7 @@
             </div>
             <div class="intro-content">
                 <div class="slider-images">
-                    <img src="img/slider/pet.jpg"
+                    <img class="lozad" data-src="img/slider/pet.jpg"
                         alt="weed-slider">
                 </div>
                 <div class="slider-content">
@@ -668,7 +672,7 @@
                 <div class="col-md-12 col-sm-12">
                     <div class="banner-content">
                         <div class="banner-left">
-                            <a href="https://www.yelp.com/biz/mittys-cbd-and-cannabis-cafe-charlotte-2?hrid=NwlQIrOShM975q3d8ymGtA&utm_campaign=read_more&utm_medium=embedded_review&utm_source=mittyscbdcannabiscafe.com" target="_blank" rel="noreferrer"><img src="img/review/yelp-review.png" alt="yelp"></a>
+                            <a href="https://www.yelp.com/biz/mittys-cbd-and-cannabis-cafe-charlotte-2?hrid=NwlQIrOShM975q3d8ymGtA&utm_campaign=read_more&utm_medium=embedded_review&utm_source=mittyscbdcannabiscafe.com" target="_blank" rel="noreferrer"><img class="lozad" data-src="img/review/yelp-review.png" alt="yelp"></a>
                         </div>
                     </div>
                     <div class="brand-content">
