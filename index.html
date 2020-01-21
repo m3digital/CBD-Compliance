@@ -1100,7 +1100,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="new-product add-carousel">
                         <div class="product-img">
-                            <img class="lozad" data-src="img/banner/beauty1.png" alt="banner-one">
+                            <img src="img/banner/beauty1.png" alt="banner-one">
                             <div class="image-content">
                                 <h4 class="image-name">
                                     <a href="#">CBD Bath Bomb</a>
@@ -1114,7 +1114,7 @@
                             </div>
                         </div>
                         <div class="product-img">
-                            <img class="lozad" data-src="img/banner/b2.png" alt="banner-two">
+                            <img src="img/banner/b2.png" alt="banner-two">
                             <div class="image-content">
                                 <h4 class="image-name">
                                     <a href="#">Tar Heal Pharms Lotion</a>
@@ -1128,7 +1128,7 @@
                             </div>
                         </div>
                         <div class="product-img">
-                            <img class="lozad" data-src="img/banner/b3.png" alt="banner-three">
+                            <img src="img/banner/b3.png" alt="banner-three">
                             <div class="image-content">
                                 <h4 class="image-name">
                                     <a href="#">Cannabis Oil</a>
@@ -1141,7 +1141,7 @@
                             </div>
                         </div>
                         <div class="product-img">
-                            <img class="lozad" data-src="img/banner/b4.png" alt="banner-four">
+                            <img src="img/banner/b4.png" alt="banner-four">
                             <div class="image-content">
                                 <h4 class="image-name">
                                     <a href="#">Colorado Hemp Honey Coffee Beans</a>
@@ -1155,7 +1155,7 @@
                             </div>
                         </div>
                         <div class="product-img">
-                            <img class="lozad" data-src="img/banner/b5.png" alt="banner-five">
+                            <img src="img/banner/b5.png" alt="banner-five">
                             <div class="image-content">
                                 <h4 class="image-name">
                                     <a href="#">Canna-Pet Biscuits</a>
@@ -1225,9 +1225,11 @@
                                         <label for="sus_email">
                                             <h5 style="margin:0">Subscribe</h5>
                                         </label>
-                                        <input type="email" class="email form-control width-80" id="sus_email"
-                                            placeholder="Type Email">
-                                        <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
+                                        <form id="subscribe" action="https://formspree.io/xeqoyobk" method="POST">
+                                            <input type="email" name="email" class="email form-control width-80" id="sus_email"
+                                                placeholder="Type Email">
+                                            <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
