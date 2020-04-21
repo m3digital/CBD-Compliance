@@ -208,7 +208,7 @@
 
     //     $.ajax({
     //         type: "POST",
-    //         url: "https://formspree.io/xvokdvkw",
+    //         url: "assets/contact.php",
     //         data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
     //         success: function(text) {
     //             if (text === "success") {
